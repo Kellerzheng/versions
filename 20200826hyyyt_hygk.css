@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------海渔概况------------*/
+
+.hygk_box{padding: 27px 22px;}
+.jgzn_box{background:url(2020825_hygk_jgzn.png) no-repeat;width: 956px;height: 232px;}
+.jgzn_box span{background: url(2020825_hygk_jgznhk.png) no-repeat;width: 513px;height: 232px;position: absolute;right:0px;top:0px;padding-top: 13px;}
+
+.jgzn_box span p{font-size: 14px;line-height: 26px;color: #ffffff;text-indent: 30px;padding-left: 30px;padding-right: 30px;padding-top: 10px; 
+	overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;}
+.jgzn_box span p a{color: #ffc046;}
+.xzcs_box{width: 603px;margin-top: 28px;}
+.regit-Title{
+    height: 40px;
+    
+    background:url(2020825_hygk_bt1.png) no-repeat left bottom;
+}
+.regit-Title a{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    height: 37px;
+	font-family: "微软雅黑";
+    line-height: 37px;
+    cursor: pointer;
+}
+.regit-Title a:hover,.regit-Title a.open{
+    background:#0167cc ;
+   text-decoration: none;
+    color: #fff;
+}
+.litsp{margin-left: -17px;margin-top: 6px;}
+.litsp span{
+    display: inline-block;
+    float: left;
+    width: 189px;
+    height: 46px;
+   border-radius: 5px;
+    margin-left: 17px;
+    background-color: #f8f8f8;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 14px;
+
+}
+.litsp span a{display: block;font-size: 15px;font-family: "微软雅黑";
+	max-width: 95%;
+	padding: 0 7px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+.litsp span a:hover{color: #0167cc;text-decoration: none;}
+.sjld_box{width: 326px;margin-top: 28px;}
+
+.regit-Title2{
+    height: 40px;
+    background:url(2020825_hygk_bt2.png) no-repeat left bottom;
+}
+
+.listname{
+    padding: 0px;
+    margin-top: 5px;
+	overflow: hidden;         
+   
+    text-overflow: ellipsis;
+}
+.listname li{
+    padding: 11px 10px 11px 19px;
+    cursor: pointer;
+}
+.listname li a{color: #333;font-size: 16px;}
+
+.listname li img{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.listname li span{
+	width: 150px;
+    font-size: 14px;
+    color: #666;
+    margin-left: 25px;
+
+}
+.listname li.gran{
+    background-color:#f9f9f9;
+}
+.listname li:hover a,.listname li:hover a span{text-decoration: none;color: #0167cc;}
+
+.hd{text-align: center;margin-top: -6px;}
